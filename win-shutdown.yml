@@ -1,6 +1,6 @@
 - name: windows shutdown
   hosts: windows
-  check_mode: True
+  #check_mode: True
   tasks:
     - name: shutdown windows
       win_command: shutdown /s
