@@ -1,5 +1,5 @@
 - name: windows shutdown
-  hosts: windows
+  hosts: all
   #check_mode: True
   tasks:
     - name: shutdown windows
